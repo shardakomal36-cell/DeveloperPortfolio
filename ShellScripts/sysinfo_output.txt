@@ -1,0 +1,27 @@
+========================================
+       SYSTEM INFORMATION REPORT
+========================================
+Name: Komal Sharda
+Roll Number: 2601730304
+Date: Wed Nov 25 07:49:59 UTC 2026
+
+---------- CPU INFORMATION ----------
+CPU Model:
+Model name:                              Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+CPU Cores:
+CPU(s):                                  4
+
+---------- MEMORY INFORMATION ----------
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       479Mi       7.2Gi       4.1Mi       191Mi       7.2Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+---------- TOP 3 PROCESSES BY CPU ----------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root        1233  0.1  0.1 1857652 15780 ?       Ssl  07:39   0:00 /usr/libexec/wsl-pro-service
+root         100  0.0  0.1  34724 12016 ?        Ss   07:08   0:01 /usr/lib/systemd/systemd-udevd
+root           1  0.0  0.1  24260 15476 ?        Ss   07:08   0:01 /sbin/init
+
+========================================
+Report generated successfully.
+========================================
