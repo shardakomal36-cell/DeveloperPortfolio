@@ -1,0 +1,63 @@
+========== HOME DIRECTORY ==========
+total 112
+drwxr-x--- 10 komal_sharda komal_sharda  4096 Nov 25 07:15 .
+drwxr-xr-x  3 root         root          4096 Oct  7 08:14 ..
+-rw-------  1 komal_sharda komal_sharda 15022 Nov 25 07:14 .bash_history
+-rw-r--r--  1 komal_sharda komal_sharda   220 Oct  7 08:14 .bash_logout
+-rw-r--r--  1 komal_sharda komal_sharda  3771 Oct  7 08:14 .bashrc
+drwxr-x---  4 komal_sharda komal_sharda  4096 Oct  7 08:17 .cache
+drwxr-x---  4 komal_sharda komal_sharda  4096 Oct 21 16:30 .config
+-rw-r--r--  1 komal_sharda komal_sharda    97 Nov  4 12:33 .gitconfig
+-rw-------  1 komal_sharda komal_sharda    20 Nov 24 20:19 .lesshst
+drwx------  3 komal_sharda komal_sharda  4096 Oct 24 12:11 .local
+-rw-rw-r--  1 komal_sharda komal_sharda     0 Nov 25 07:08 .motd_shown
+-rw-r--r--  1 komal_sharda komal_sharda   807 Oct  7 08:14 .profile
+drwxr-xr-x  8 komal_sharda komal_sharda  4096 Nov 25 07:18 DeveloperPortfolio
+drwxr-xr-x  3 komal_sharda komal_sharda  4096 Oct 24 15:07 Downloads
+-rw-r--r--  1 komal_sharda komal_sharda    22 Nov  4 14:34 README.md
+-rw-r--r--  1 komal_sharda komal_sharda   448 Oct 24 16:06 buggy_script.sh
+drwxr-xr-x  2 komal_sharda komal_sharda  4096 Oct 24 15:24 cse103_backups
+drwxr-xr-x  4 komal_sharda komal_sharda  4096 Oct 31 11:12 cse103_lab
+-rwxr-xr-x  1 komal_sharda komal_sharda   347 Oct 24 16:11 defensive_script.sh
+drwxr-xr-x  3 komal_sharda komal_sharda  4096 Nov 24 20:31 developer-portfolio
+-rwxr-xr-x  1 komal_sharda komal_sharda   444 Oct 24 16:09 fixed_script.sh
+-rw-r--r--  1 komal_sharda komal_sharda   416 Nov 21 07:35 lab3-before-recovery.patch
+-rw-r--r--  1 komal_sharda komal_sharda    21 Nov  4 14:33 main.py
+-rw-r--r--  1 komal_sharda komal_sharda    18 Oct 24 16:15 students.txt
+-rw-r--r--  1 komal_sharda komal_sharda  5645 Nov 21 10:22 users.json
+========== RUNNING PROCESSES ==========
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.1  24116 15468 ?        Ss   07:08   0:01 /sbin/init
+root           2  0.0  0.0   3820  2524 hvc0     Sl+  07:08   0:00 /init
+root           3  0.0  0.0   3680  2220 hvc0     S+   07:08   0:00 init-watcher
+root           7  0.0  0.0   3820  2292 hvc0     Sl+  07:08   0:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          53  0.0  0.2  50680 19496 ?        S<s  07:08   0:00 /usr/lib/systemd/systemd-journald
+systemd+      88  0.0  0.1  22432 14468 ?        Ss   07:08   0:00 /usr/lib/systemd/systemd-resolved
+root         100  0.1  0.1  34724 12016 ?        Ss   07:08   0:01 /usr/lib/systemd/systemd-udevd
+root         121  0.0  0.0   2888  2012 ?        Ss   07:08   0:00 /bin/sh /usr/lib/systemd/scripts/chronyd-starter.sh -n -F 1
+root         122  0.0  0.0   4472  3160 ?        Ss   07:08   0:00 /usr/sbin/cron -f -P
+========== DISK USAGE ==========
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/6.18.58.1-microsoft-standard-WSL2
+/dev/sdb         97M   97M     0 100% /usr/src/linux-headers-6.18.58.1-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         238G  224G   15G  95% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            3.9G   36K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  3.4M  3.9G   1% /init
+none            3.9G  492K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+none            3.9G   80K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   80K  3.9G   1% /mnt/wslg/doc
+C:\             238G  224G   15G  95% /mnt/c
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           3.9G     0  3.9G   0% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           789M   12K  789M   1% /run/user/1000
+========== MEMORY USAGE ==========
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       470Mi       7.2Gi       4.1Mi       204Mi       7.2Gi
+Swap:          2.0Gi          0B       2.0Gi
