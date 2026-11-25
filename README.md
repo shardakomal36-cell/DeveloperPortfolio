@@ -1,5 +1,4 @@
 # DeveloperPortfolio
-
 Welcome to my DeveloperPortfolio repository.
 
 This repository showcases my technical learning and development skills.
@@ -15,4 +14,4 @@ This repository showcases my technical learning and development skills.
 ## Profiles
 
 - GitHub: https://github.com/shardakomal36-cell
-- LinkedIn: Add your LinkedIn URL here.
+- LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/komal-sharda-16a774432)
